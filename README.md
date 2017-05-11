@@ -27,3 +27,7 @@ Install the SDL2 headers and libraries.
     sudo apt install libsdl2-dev
     
 OpenGL headers and libraries are already present on the system. CMake will find them automatically.
+
+## Build Instructions
+
+For build instructions, see the blog post [How to Build a CMake-Based Project](http://preshing.com/20170511/how-to-build-a-cmake-based-project).
