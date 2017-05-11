@@ -8,7 +8,7 @@ This project uses SDL2 and OpenGL to render a spinning 3D logo to a desktop wind
 
 ### Windows (Visual Studio)
 
-CMakeDemo expects to find the SDL2 headers and libraries in a subfolder named `extern\SDL-2.#.#`. You can download and extract them automatically by running the Python 3 script `setup-win32.py`. If you don't have Python installed, [download and extract them by hand](https://www.libsdl.org/release/SDL2-devel-2.0.5-VC.zip).
+CMakeDemo expects to find the SDL2 headers and libraries in a subfolder named `extern\SDL-2.0.5`. You can download and extract them automatically by running the Python 3 script `setup-win32.py`. If you don't have Python installed, [download and extract them by hand](https://www.libsdl.org/release/SDL2-devel-2.0.5-VC.zip).
 
 On Windows, CMakeDemo uses its own OpenGL headers and loads `opengl32.dll` dynamically at runtime. Nothing else is needed at build time.
 
